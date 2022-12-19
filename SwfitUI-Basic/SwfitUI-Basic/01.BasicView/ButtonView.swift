@@ -13,7 +13,17 @@ struct ButtonView: View {
             print("Did Tap Button!")
         } label: {
             Text("Button View!")
+                // Add Modifier
+                .font(.system(size: 30,
+                              weight: .bold,
+                              design: .default))
+                .foregroundColor(.white)
         }
+        // Add Modifier
+        .padding()
+        .frame(height: 100)
+        .background(.red)
+        .cornerRadius(20)
     }
 }
 

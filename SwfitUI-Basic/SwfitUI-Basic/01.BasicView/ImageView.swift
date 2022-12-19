@@ -10,6 +10,10 @@ import SwiftUI
 struct ImageView: View {
     var body: some View {
         Image(systemName: "bolt.fill")
+            // Add Modifier
+            .renderingMode(.original)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
     }
 }
 

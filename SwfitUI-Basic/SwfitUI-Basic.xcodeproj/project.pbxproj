@@ -137,9 +137,9 @@
 		596F4591295088690058658C /* 01.BasicView */ = {
 			isa = PBXGroup;
 			children = (
-				596F4593295088910058658C /* TextView.swift */,
 				596F4595295088A10058658C /* ButtonView.swift */,
 				596F45972950891C0058658C /* ImageView.swift */,
+				596F4593295088910058658C /* TextView.swift */,
 			);
 			path = 01.BasicView;
 			sourceTree = "<group>";
