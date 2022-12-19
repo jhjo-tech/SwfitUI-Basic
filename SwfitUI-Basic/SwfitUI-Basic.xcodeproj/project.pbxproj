@@ -14,6 +14,9 @@
 		596F4573295086290058658C /* SwfitUI_BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F4572295086290058658C /* SwfitUI_BasicTests.swift */; };
 		596F457D295086290058658C /* SwfitUI_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F457C295086290058658C /* SwfitUI_BasicUITests.swift */; };
 		596F457F295086290058658C /* SwfitUI_BasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F457E295086290058658C /* SwfitUI_BasicUITestsLaunchTests.swift */; };
+		596F4594295088910058658C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F4593295088910058658C /* TextView.swift */; };
+		596F4596295088A10058658C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F4595295088A10058658C /* ButtonView.swift */; };
+		596F45982950891C0058658C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45972950891C0058658C /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		596F4578295086290058658C /* SwfitUI-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwfitUI-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		596F457C295086290058658C /* SwfitUI_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitUI_BasicUITests.swift; sourceTree = "<group>"; };
 		596F457E295086290058658C /* SwfitUI_BasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitUI_BasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		596F4593295088910058658C /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		596F4595295088A10058658C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		596F45972950891C0058658C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,11 @@
 		596F4560295086280058658C /* SwfitUI-Basic */ = {
 			isa = PBXGroup;
 			children = (
-				596F4561295086280058658C /* SwfitUI_BasicApp.swift */,
-				596F4563295086280058658C /* ContentView.swift */,
+				596F4591295088690058658C /* 01.BasicView */,
 				596F4565295086290058658C /* Assets.xcassets */,
+				596F4563295086280058658C /* ContentView.swift */,
 				596F4567295086290058658C /* Preview Content */,
+				596F4561295086280058658C /* SwfitUI_BasicApp.swift */,
 			);
 			path = "SwfitUI-Basic";
 			sourceTree = "<group>";
@@ -125,6 +132,16 @@
 				596F457E295086290058658C /* SwfitUI_BasicUITestsLaunchTests.swift */,
 			);
 			path = "SwfitUI-BasicUITests";
+			sourceTree = "<group>";
+		};
+		596F4591295088690058658C /* 01.BasicView */ = {
+			isa = PBXGroup;
+			children = (
+				596F4593295088910058658C /* TextView.swift */,
+				596F4595295088A10058658C /* ButtonView.swift */,
+				596F45972950891C0058658C /* ImageView.swift */,
+			);
+			path = 01.BasicView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596F45982950891C0058658C /* ImageView.swift in Sources */,
+				596F4596295088A10058658C /* ButtonView.swift in Sources */,
+				596F4594295088910058658C /* TextView.swift in Sources */,
 				596F4564295086280058658C /* ContentView.swift in Sources */,
 				596F4562295086280058658C /* SwfitUI_BasicApp.swift in Sources */,
 			);
