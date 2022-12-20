@@ -2,18 +2,14 @@
 //  ContentView.swift
 //  SwfitUI-Basic
 //
-//  Created by Jo JANGHUI on 2022/12/19.
+//  Created by Jo JANGHUI on 2022/12/20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        TextView()
-//        ButtonView()
-//        ImageView()
-//        BasicStackView()
-        PlayerView(episode: Episode.list[0])
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
