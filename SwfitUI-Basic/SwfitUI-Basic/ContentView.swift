@@ -14,7 +14,8 @@ struct ContentView: View {
 //        ImageView()
 //        BasicStackView()
 //        PlayerView(episode: Episode.list[0])
-        SymbolRollerView()
+//        SymbolRollerView()
+        StockRankView()
     }
 }
 
