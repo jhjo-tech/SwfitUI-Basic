@@ -26,6 +26,7 @@
 		596F45AF295320140058658C /* SymbolRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45AE295320140058658C /* SymbolRollerView.swift */; };
 		596F45B2295329030058658C /* StockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45B1295329030058658C /* StockRankView.swift */; };
 		596F45B4295329110058658C /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45B3295329110058658C /* StockModel.swift */; };
+		596F45B629532B990058658C /* StockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45B529532B990058658C /* StockRankRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		596F45AE295320140058658C /* SymbolRollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerView.swift; sourceTree = "<group>"; };
 		596F45B1295329030058658C /* StockRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankView.swift; sourceTree = "<group>"; };
 		596F45B3295329110058658C /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		596F45B529532B990058658C /* StockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				596F45B1295329030058658C /* StockRankView.swift */,
+				596F45B529532B990058658C /* StockRankRow.swift */,
 				596F45B3295329110058658C /* StockModel.swift */,
 			);
 			path = 06.ListView;
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				596F45982950891C0058658C /* ImageView.swift in Sources */,
+				596F45B629532B990058658C /* StockRankRow.swift in Sources */,
 				596F45A92951D32A0058658C /* PlayButton.swift in Sources */,
 				596F45B4295329110058658C /* StockModel.swift in Sources */,
 				596F4596295088A10058658C /* ButtonView.swift in Sources */,
