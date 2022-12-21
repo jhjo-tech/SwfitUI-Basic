@@ -23,6 +23,7 @@
 		596F45A52951C7C60058658C /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45A42951C7C60058658C /* Episode.swift */; };
 		596F45A92951D32A0058658C /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45A82951D32A0058658C /* PlayButton.swift */; };
 		596F45AB2951D3470058658C /* PlayingStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45AA2951D3470058658C /* PlayingStatusView.swift */; };
+		596F45AF295320140058658C /* SymbolRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45AE295320140058658C /* SymbolRollerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		596F45A42951C7C60058658C /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		596F45A82951D32A0058658C /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		596F45AA2951D3470058658C /* PlayingStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingStatusView.swift; sourceTree = "<group>"; };
+		596F45AE295320140058658C /* SymbolRollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				596F4591295088690058658C /* 01.BasicView */,
 				596F459B29508D3B0058658C /* 03.BasicStackView */,
 				596F45A12951C7920058658C /* 04.DataFlow */,
+				596F45AC29531FED0058658C /* 05.SymbolRoller */,
 				596F4565295086290058658C /* Assets.xcassets */,
 				596F4563295086280058658C /* ContentView.swift */,
 				596F4567295086290058658C /* Preview Content */,
@@ -176,6 +179,14 @@
 				596F45AA2951D3470058658C /* PlayingStatusView.swift */,
 			);
 			path = 04.DataFlow;
+			sourceTree = "<group>";
+		};
+		596F45AC29531FED0058658C /* 05.SymbolRoller */ = {
+			isa = PBXGroup;
+			children = (
+				596F45AE295320140058658C /* SymbolRollerView.swift */,
+			);
+			path = 05.SymbolRoller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +329,7 @@
 				596F4562295086280058658C /* SwfitUI_BasicApp.swift in Sources */,
 				596F459E29508D6A0058658C /* BasicStackView.swift in Sources */,
 				596F45A52951C7C60058658C /* Episode.swift in Sources */,
+				596F45AF295320140058658C /* SymbolRollerView.swift in Sources */,
 				596F45A029508E620058658C /* BasicStackTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
