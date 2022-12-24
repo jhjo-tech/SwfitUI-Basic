@@ -15,7 +15,9 @@ struct ContentView: View {
 //        BasicStackView()
 //        PlayerView(episode: Episode.list[0])
 //        SymbolRollerView()
-        FrameworkListView()
+//        FrameworkListView()
+        NaviStockRankView()
+            .preferredColorScheme(.dark)
     }
 }
 
