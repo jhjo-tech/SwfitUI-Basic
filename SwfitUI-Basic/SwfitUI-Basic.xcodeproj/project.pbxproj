@@ -30,6 +30,8 @@
 		596F45B92955D6140058658C /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45B82955D6140058658C /* FrameworkListView.swift */; };
 		596F45BB2955D61F0058658C /* FrameworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45BA2955D61F0058658C /* FrameworkData.swift */; };
 		596F45BD2955DA6D0058658C /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45BC2955DA6D0058658C /* FrameworkCell.swift */; };
+		596F45C22956A0760058658C /* NaviStockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C12956A0760058658C /* NaviStockRankView.swift */; };
+		596F45C42956A0810058658C /* NaviStockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C32956A0810058658C /* NaviStockRankRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		596F45B82955D6140058658C /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
 		596F45BA2955D61F0058658C /* FrameworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkData.swift; sourceTree = "<group>"; };
 		596F45BC2955DA6D0058658C /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
+		596F45C12956A0760058658C /* NaviStockRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStockRankView.swift; sourceTree = "<group>"; };
+		596F45C32956A0810058658C /* NaviStockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStockRankRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 				596F45AC29531FED0058658C /* 05.SymbolRoller */,
 				596F45B0295328180058658C /* 06.ListView */,
 				596F45B72955D5EA0058658C /* 07.GridView */,
+				596F45BE29569FB60058658C /* 08.NavigationView */,
 				596F4565295086290058658C /* Assets.xcassets */,
 				596F4563295086280058658C /* ContentView.swift */,
 				596F4567295086290058658C /* Preview Content */,
@@ -221,6 +226,15 @@
 				596F45BA2955D61F0058658C /* FrameworkData.swift */,
 			);
 			path = 07.GridView;
+			sourceTree = "<group>";
+		};
+		596F45BE29569FB60058658C /* 08.NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				596F45C12956A0760058658C /* NaviStockRankView.swift */,
+				596F45C32956A0810058658C /* NaviStockRankRow.swift */,
+			);
+			path = 08.NavigationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +377,7 @@
 				596F45B92955D6140058658C /* FrameworkListView.swift in Sources */,
 				596F45AB2951D3470058658C /* PlayingStatusView.swift in Sources */,
 				596F4564295086280058658C /* ContentView.swift in Sources */,
+				596F45C42956A0810058658C /* NaviStockRankRow.swift in Sources */,
 				596F4562295086280058658C /* SwfitUI_BasicApp.swift in Sources */,
 				596F459E29508D6A0058658C /* BasicStackView.swift in Sources */,
 				596F45A52951C7C60058658C /* Episode.swift in Sources */,
@@ -371,6 +386,7 @@
 				596F45B2295329030058658C /* StockRankView.swift in Sources */,
 				596F45BB2955D61F0058658C /* FrameworkData.swift in Sources */,
 				596F45A029508E620058658C /* BasicStackTextView.swift in Sources */,
+				596F45C22956A0760058658C /* NaviStockRankView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
