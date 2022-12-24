@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NaviStockRankRow: View {
-    var stock: StockModel
+    @Binding var stock: StockModel
     
     var body: some View {
         HStack {
@@ -55,6 +55,7 @@ struct NaviStockRankRow: View {
 
 struct NaviStockRankRow_Previews: PreviewProvider {
     static var previews: some View {
-        NaviStockRankRow(stock: StockModel.list[0])
+        NaviStockRankRow(stock: .constant(StockModel.list[0]))
+            .previewLayout(.fixed(width: 390, height: 80))
     }
 }

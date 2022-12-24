@@ -32,6 +32,7 @@
 		596F45BD2955DA6D0058658C /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45BC2955DA6D0058658C /* FrameworkCell.swift */; };
 		596F45C22956A0760058658C /* NaviStockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C12956A0760058658C /* NaviStockRankView.swift */; };
 		596F45C42956A0810058658C /* NaviStockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C32956A0810058658C /* NaviStockRankRow.swift */; };
+		596F45C62956A18A0058658C /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C52956A18A0058658C /* StockDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		596F45BC2955DA6D0058658C /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
 		596F45C12956A0760058658C /* NaviStockRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStockRankView.swift; sourceTree = "<group>"; };
 		596F45C32956A0810058658C /* NaviStockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStockRankRow.swift; sourceTree = "<group>"; };
+		596F45C52956A18A0058658C /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 			children = (
 				596F45C12956A0760058658C /* NaviStockRankView.swift */,
 				596F45C32956A0810058658C /* NaviStockRankRow.swift */,
+				596F45C52956A18A0058658C /* StockDetailView.swift */,
 			);
 			path = 08.NavigationView;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				596F4596295088A10058658C /* ButtonView.swift in Sources */,
 				596F4594295088910058658C /* TextView.swift in Sources */,
 				596F45A32951C7AB0058658C /* PlayerView.swift in Sources */,
+				596F45C62956A18A0058658C /* StockDetailView.swift in Sources */,
 				596F45B92955D6140058658C /* FrameworkListView.swift in Sources */,
 				596F45AB2951D3470058658C /* PlayingStatusView.swift in Sources */,
 				596F4564295086280058658C /* ContentView.swift in Sources */,
