@@ -18,9 +18,10 @@ struct StockRankRow: View {
                 .frame(width: 30)
                 .foregroundColor(.blue)
             
-            Image(systemName: "moon")
+            Image(systemName: stock.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .foregroundColor(.white)
                 .frame(width: 40, height: 40)
             
             VStack(alignment: .leading, spacing: 5) {
