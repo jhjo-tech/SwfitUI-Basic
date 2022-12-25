@@ -37,6 +37,10 @@
 		596F45CB29586FB60058658C /* AddModelStockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45CA29586FB60058658C /* AddModelStockRankRow.swift */; };
 		596F45CD29586FC30058658C /* AddModelStockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45CC29586FC30058658C /* AddModelStockDetailView.swift */; };
 		596F45CF295871A90058658C /* StockRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45CE295871A90058658C /* StockRankViewModel.swift */; };
+		596F45D229587BF60058658C /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D129587BF60058658C /* FirstView.swift */; };
+		596F45D429587CA80058658C /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D329587CA80058658C /* UserProfileSettings.swift */; };
+		596F45D629587CD60058658C /* SecondVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D529587CD60058658C /* SecondVIew.swift */; };
+		596F45D829587CDD0058658C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D729587CDD0058658C /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +94,10 @@
 		596F45CA29586FB60058658C /* AddModelStockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModelStockRankRow.swift; sourceTree = "<group>"; };
 		596F45CC29586FC30058658C /* AddModelStockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModelStockDetailView.swift; sourceTree = "<group>"; };
 		596F45CE295871A90058658C /* StockRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewModel.swift; sourceTree = "<group>"; };
+		596F45D129587BF60058658C /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		596F45D329587CA80058658C /* UserProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
+		596F45D529587CD60058658C /* SecondVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVIew.swift; sourceTree = "<group>"; };
+		596F45D729587CDD0058658C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 				596F45B72955D5EA0058658C /* 07.GridView */,
 				596F45BE29569FB60058658C /* 08.NavigationView */,
 				596F45C729586F810058658C /* 09.ViewModel */,
+				596F45D029587B750058658C /* 10.EnvironmentObject */,
 				596F4565295086290058658C /* Assets.xcassets */,
 				596F4563295086280058658C /* ContentView.swift */,
 				596F4567295086290058658C /* Preview Content */,
@@ -258,6 +267,17 @@
 				596F45CE295871A90058658C /* StockRankViewModel.swift */,
 			);
 			path = 09.ViewModel;
+			sourceTree = "<group>";
+		};
+		596F45D029587B750058658C /* 10.EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				596F45D129587BF60058658C /* FirstView.swift */,
+				596F45D529587CD60058658C /* SecondVIew.swift */,
+				596F45D729587CDD0058658C /* ThirdView.swift */,
+				596F45D329587CA80058658C /* UserProfileSettings.swift */,
+			);
+			path = 10.EnvironmentObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +417,8 @@
 				596F45B4295329110058658C /* StockModel.swift in Sources */,
 				596F4596295088A10058658C /* ButtonView.swift in Sources */,
 				596F4594295088910058658C /* TextView.swift in Sources */,
+				596F45D429587CA80058658C /* UserProfileSettings.swift in Sources */,
+				596F45D229587BF60058658C /* FirstView.swift in Sources */,
 				596F45A32951C7AB0058658C /* PlayerView.swift in Sources */,
 				596F45CB29586FB60058658C /* AddModelStockRankRow.swift in Sources */,
 				596F45C62956A18A0058658C /* StockDetailView.swift in Sources */,
@@ -410,6 +432,8 @@
 				596F459E29508D6A0058658C /* BasicStackView.swift in Sources */,
 				596F45A52951C7C60058658C /* Episode.swift in Sources */,
 				596F45AF295320140058658C /* SymbolRollerView.swift in Sources */,
+				596F45D629587CD60058658C /* SecondVIew.swift in Sources */,
+				596F45D829587CDD0058658C /* ThirdView.swift in Sources */,
 				596F45BD2955DA6D0058658C /* FrameworkCell.swift in Sources */,
 				596F45B2295329030058658C /* StockRankView.swift in Sources */,
 				596F45BB2955D61F0058658C /* FrameworkData.swift in Sources */,
