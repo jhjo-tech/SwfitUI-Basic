@@ -33,6 +33,9 @@
 		596F45C22956A0760058658C /* NaviStockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C12956A0760058658C /* NaviStockRankView.swift */; };
 		596F45C42956A0810058658C /* NaviStockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C32956A0810058658C /* NaviStockRankRow.swift */; };
 		596F45C62956A18A0058658C /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C52956A18A0058658C /* StockDetailView.swift */; };
+		596F45C929586FA20058658C /* AddModelStockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45C829586FA20058658C /* AddModelStockRankView.swift */; };
+		596F45CB29586FB60058658C /* AddModelStockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45CA29586FB60058658C /* AddModelStockRankRow.swift */; };
+		596F45CD29586FC30058658C /* AddModelStockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45CC29586FC30058658C /* AddModelStockDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		596F45C12956A0760058658C /* NaviStockRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStockRankView.swift; sourceTree = "<group>"; };
 		596F45C32956A0810058658C /* NaviStockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviStockRankRow.swift; sourceTree = "<group>"; };
 		596F45C52956A18A0058658C /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		596F45C829586FA20058658C /* AddModelStockRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModelStockRankView.swift; sourceTree = "<group>"; };
+		596F45CA29586FB60058658C /* AddModelStockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModelStockRankRow.swift; sourceTree = "<group>"; };
+		596F45CC29586FC30058658C /* AddModelStockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddModelStockDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +118,10 @@
 		596F4555295086280058658C = {
 			isa = PBXGroup;
 			children = (
+				596F455F295086280058658C /* Products */,
 				596F4560295086280058658C /* SwfitUI-Basic */,
 				596F4571295086290058658C /* SwfitUI-BasicTests */,
 				596F457B295086290058658C /* SwfitUI-BasicUITests */,
-				596F455F295086280058658C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +145,7 @@
 				596F45B0295328180058658C /* 06.ListView */,
 				596F45B72955D5EA0058658C /* 07.GridView */,
 				596F45BE29569FB60058658C /* 08.NavigationView */,
+				596F45C729586F810058658C /* 09.ViewModel */,
 				596F4565295086290058658C /* Assets.xcassets */,
 				596F4563295086280058658C /* ContentView.swift */,
 				596F4567295086290058658C /* Preview Content */,
@@ -238,6 +245,16 @@
 				596F45C52956A18A0058658C /* StockDetailView.swift */,
 			);
 			path = 08.NavigationView;
+			sourceTree = "<group>";
+		};
+		596F45C729586F810058658C /* 09.ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				596F45CC29586FC30058658C /* AddModelStockDetailView.swift */,
+				596F45CA29586FB60058658C /* AddModelStockRankRow.swift */,
+				596F45C829586FA20058658C /* AddModelStockRankView.swift */,
+			);
+			path = 09.ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,15 +388,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				596F45982950891C0058658C /* ImageView.swift in Sources */,
+				596F45C929586FA20058658C /* AddModelStockRankView.swift in Sources */,
 				596F45B629532B990058658C /* StockRankRow.swift in Sources */,
 				596F45A92951D32A0058658C /* PlayButton.swift in Sources */,
 				596F45B4295329110058658C /* StockModel.swift in Sources */,
 				596F4596295088A10058658C /* ButtonView.swift in Sources */,
 				596F4594295088910058658C /* TextView.swift in Sources */,
 				596F45A32951C7AB0058658C /* PlayerView.swift in Sources */,
+				596F45CB29586FB60058658C /* AddModelStockRankRow.swift in Sources */,
 				596F45C62956A18A0058658C /* StockDetailView.swift in Sources */,
 				596F45B92955D6140058658C /* FrameworkListView.swift in Sources */,
 				596F45AB2951D3470058658C /* PlayingStatusView.swift in Sources */,
+				596F45CD29586FC30058658C /* AddModelStockDetailView.swift in Sources */,
 				596F4564295086280058658C /* ContentView.swift in Sources */,
 				596F45C42956A0810058658C /* NaviStockRankRow.swift in Sources */,
 				596F4562295086280058658C /* SwfitUI_BasicApp.swift in Sources */,
