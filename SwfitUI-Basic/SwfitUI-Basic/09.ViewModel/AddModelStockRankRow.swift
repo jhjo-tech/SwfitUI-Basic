@@ -44,7 +44,7 @@ struct AddModelStockRankRow: View {
                 .renderingMode(.template)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 40, height: 40)
-                .foregroundColor(.gray)
+                .foregroundColor(stock.isFavorite ? .white : .gray)
             
         }
         .padding()
@@ -55,7 +55,7 @@ struct AddModelStockRankRow: View {
 
 struct AddModelStockRankRow_Previews: PreviewProvider {
     static var previews: some View {
-        NaviStockRankRow(stock: .constant(StockModel.list[0]))
+        AddModelStockRankRow(stock: .constant(StockModel.list[0]))
             .previewLayout(.fixed(width: 390, height: 80))
     }
 }

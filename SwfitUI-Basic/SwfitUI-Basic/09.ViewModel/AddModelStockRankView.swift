@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct AddModelStockRankView: View {
-    @State var list = StockModel.list
+//    @State var list = StockModel.list
+    
+    @StateObject var vm = StockRankViewModel()
     
     var body: some View {
         NavigationView {
-            List($list) { $item in
+            List($vm.models) { $item in 
                 
                 ZStack {
                     NavigationLink {
-                        AddModelStockDetailView(stock: $item)
+                        AddModelStockDetailView(
+                            viewModel: vm,
+                            stock: $item)
                     } label : {
                        EmptyView()
                     }
@@ -34,7 +38,7 @@ struct AddModelStockRankView: View {
 
 struct AddModelStockRankView_Previews: PreviewProvider {
     static var previews: some View {
-        NaviStockRankView(list: StockModel.list)
+        AddModelStockRankView(vm: StockRankViewModel())
             .preferredColorScheme(.dark)
     }
 }
