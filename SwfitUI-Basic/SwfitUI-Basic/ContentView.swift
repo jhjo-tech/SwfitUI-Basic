@@ -18,8 +18,10 @@ struct ContentView: View {
 //        FrameworkListView()
 //        NaviStockRankView()
 //            .preferredColorScheme(.dark)
-        AddModelStockRankView()
-            .preferredColorScheme(.dark)
+//        AddModelStockRankView()
+//            .preferredColorScheme(.dark)
+        
+        ModalFrameworkListView()
     }
 }
 

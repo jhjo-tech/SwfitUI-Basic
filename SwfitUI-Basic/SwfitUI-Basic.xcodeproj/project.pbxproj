@@ -41,6 +41,10 @@
 		596F45D429587CA80058658C /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D329587CA80058658C /* UserProfileSettings.swift */; };
 		596F45D629587CD60058658C /* SecondVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D529587CD60058658C /* SecondVIew.swift */; };
 		596F45D829587CDD0058658C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45D729587CDD0058658C /* ThirdView.swift */; };
+		596F45DB2959AA670058658C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45DA2959AA670058658C /* FrameworkDetailView.swift */; };
+		596F45DD2959AB4A0058658C /* ModalFrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45DC2959AB4A0058658C /* ModalFrameworkListView.swift */; };
+		596F45DF2959AB780058658C /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45DE2959AB780058658C /* FrameworkListViewModel.swift */; };
+		596F45E12959ABE40058658C /* ModalFrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45E02959ABE40058658C /* ModalFrameworkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +102,10 @@
 		596F45D329587CA80058658C /* UserProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
 		596F45D529587CD60058658C /* SecondVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVIew.swift; sourceTree = "<group>"; };
 		596F45D729587CDD0058658C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		596F45DA2959AA670058658C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		596F45DC2959AB4A0058658C /* ModalFrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalFrameworkListView.swift; sourceTree = "<group>"; };
+		596F45DE2959AB780058658C /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
+		596F45E02959ABE40058658C /* ModalFrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalFrameworkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +165,7 @@
 				596F45BE29569FB60058658C /* 08.NavigationView */,
 				596F45C729586F810058658C /* 09.ViewModel */,
 				596F45D029587B750058658C /* 10.EnvironmentObject */,
+				596F45D92959AA350058658C /* 11.Modal */,
 				596F4565295086290058658C /* Assets.xcassets */,
 				596F4563295086280058658C /* ContentView.swift */,
 				596F4567295086290058658C /* Preview Content */,
@@ -278,6 +287,17 @@
 				596F45D329587CA80058658C /* UserProfileSettings.swift */,
 			);
 			path = 10.EnvironmentObject;
+			sourceTree = "<group>";
+		};
+		596F45D92959AA350058658C /* 11.Modal */ = {
+			isa = PBXGroup;
+			children = (
+				596F45DA2959AA670058658C /* FrameworkDetailView.swift */,
+				596F45DE2959AB780058658C /* FrameworkListViewModel.swift */,
+				596F45E02959ABE40058658C /* ModalFrameworkCell.swift */,
+				596F45DC2959AB4A0058658C /* ModalFrameworkListView.swift */,
+			);
+			path = 11.Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				596F45982950891C0058658C /* ImageView.swift in Sources */,
+				596F45E12959ABE40058658C /* ModalFrameworkCell.swift in Sources */,
 				596F45C929586FA20058658C /* AddModelStockRankView.swift in Sources */,
 				596F45B629532B990058658C /* StockRankRow.swift in Sources */,
 				596F45A92951D32A0058658C /* PlayButton.swift in Sources */,
@@ -419,9 +440,11 @@
 				596F4594295088910058658C /* TextView.swift in Sources */,
 				596F45D429587CA80058658C /* UserProfileSettings.swift in Sources */,
 				596F45D229587BF60058658C /* FirstView.swift in Sources */,
+				596F45DD2959AB4A0058658C /* ModalFrameworkListView.swift in Sources */,
 				596F45A32951C7AB0058658C /* PlayerView.swift in Sources */,
 				596F45CB29586FB60058658C /* AddModelStockRankRow.swift in Sources */,
 				596F45C62956A18A0058658C /* StockDetailView.swift in Sources */,
+				596F45DF2959AB780058658C /* FrameworkListViewModel.swift in Sources */,
 				596F45B92955D6140058658C /* FrameworkListView.swift in Sources */,
 				596F45AB2951D3470058658C /* PlayingStatusView.swift in Sources */,
 				596F45CD29586FC30058658C /* AddModelStockDetailView.swift in Sources */,
@@ -436,6 +459,7 @@
 				596F45D829587CDD0058658C /* ThirdView.swift in Sources */,
 				596F45BD2955DA6D0058658C /* FrameworkCell.swift in Sources */,
 				596F45B2295329030058658C /* StockRankView.swift in Sources */,
+				596F45DB2959AA670058658C /* FrameworkDetailView.swift in Sources */,
 				596F45BB2955D61F0058658C /* FrameworkData.swift in Sources */,
 				596F45A029508E620058658C /* BasicStackTextView.swift in Sources */,
 				596F45C22956A0760058658C /* NaviStockRankView.swift in Sources */,
