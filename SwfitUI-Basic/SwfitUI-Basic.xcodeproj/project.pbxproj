@@ -45,6 +45,8 @@
 		596F45DD2959AB4A0058658C /* ModalFrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45DC2959AB4A0058658C /* ModalFrameworkListView.swift */; };
 		596F45DF2959AB780058658C /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45DE2959AB780058658C /* FrameworkListViewModel.swift */; };
 		596F45E12959ABE40058658C /* ModalFrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45E02959ABE40058658C /* ModalFrameworkCell.swift */; };
+		596F45E32959B5B20058658C /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45E22959B5B20058658C /* FrameworkDetailViewModel.swift */; };
+		596F45E52959B7EB0058658C /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F45E42959B7EB0058658C /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		596F45DC2959AB4A0058658C /* ModalFrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalFrameworkListView.swift; sourceTree = "<group>"; };
 		596F45DE2959AB780058658C /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
 		596F45E02959ABE40058658C /* ModalFrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalFrameworkCell.swift; sourceTree = "<group>"; };
+		596F45E22959B5B20058658C /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
+		596F45E42959B7EB0058658C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,9 +297,11 @@
 			isa = PBXGroup;
 			children = (
 				596F45DA2959AA670058658C /* FrameworkDetailView.swift */,
+				596F45E22959B5B20058658C /* FrameworkDetailViewModel.swift */,
 				596F45DE2959AB780058658C /* FrameworkListViewModel.swift */,
 				596F45E02959ABE40058658C /* ModalFrameworkCell.swift */,
 				596F45DC2959AB4A0058658C /* ModalFrameworkListView.swift */,
+				596F45E42959B7EB0058658C /* SafariView.swift */,
 			);
 			path = 11.Modal;
 			sourceTree = "<group>";
@@ -460,9 +466,11 @@
 				596F45BD2955DA6D0058658C /* FrameworkCell.swift in Sources */,
 				596F45B2295329030058658C /* StockRankView.swift in Sources */,
 				596F45DB2959AA670058658C /* FrameworkDetailView.swift in Sources */,
+				596F45E32959B5B20058658C /* FrameworkDetailViewModel.swift in Sources */,
 				596F45BB2955D61F0058658C /* FrameworkData.swift in Sources */,
 				596F45A029508E620058658C /* BasicStackTextView.swift in Sources */,
 				596F45C22956A0760058658C /* NaviStockRankView.swift in Sources */,
+				596F45E52959B7EB0058658C /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
